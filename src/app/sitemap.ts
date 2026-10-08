@@ -1,7 +1,6 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
-
-const site = process.env.SITE_URL ?? "http://localhost:3000";
+import { SITE_URL as site } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return routing.locales.map((locale) => ({

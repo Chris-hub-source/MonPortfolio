@@ -1,6 +1,7 @@
 import { Resend } from "resend";
 import type { ContactInput } from "./validators";
-import { formatSlotLabel } from "./datetime";
+import { formatSlotLabel } from "./datetime"; 
+import { SITE_URL } from "./site";  
 
 // Retire les retours à la ligne pour éviter l'injection dans l'en-tête de l'email
 const oneLine = (s: string) => s.replace(/[\r\n]+/g, " ").trim();
@@ -109,7 +110,7 @@ export async function sendAppointmentDecision(
     offsetMinutes,
   );
   const name = oneLine(a.name);
-  const site = process.env.SITE_URL ?? "http://localhost:3000";
+  const site = SITE_URL;
   const bookingUrl = `${site}/${fr ? "fr" : "en"}#rendez-vous`;
   const noteBlock = note
     ? fr
