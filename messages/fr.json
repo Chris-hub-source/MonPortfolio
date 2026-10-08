@@ -1,0 +1,167 @@
+{
+  "Meta": {
+    "siteName": "Rey",
+    "title": "Rey — Développeur Full-Stack",
+    "description": "Portfolio de développeur full-stack : applications web, mobiles et systèmes de gestion."
+  },
+  "Common": {
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "toggleTheme": "Changer de thème",
+    "switchLanguage": "Changer de langue"
+  },
+  "Nav": {
+    "projects": "Projets",
+    "services": "Services",
+    "experience": "Parcours",
+    "contact": "Contact",
+    "booking": "Prendre rendez-vous"
+  },
+  "Home": {
+    "available": "Disponible pour de nouveaux projets",
+    "title": "Je conçois des applications web et mobiles qui font la différence.",
+    "subtitle": "Développeur full-stack : du back-end à l'interface, je transforme vos idées en produits fiables et soignés.",
+    "seeProjects": "Voir mes projets",
+    "bookCall": "Prendre rendez-vous",
+    "projectsTitle": "Projets récents",
+    "projectsSubtitle": "Quelques réalisations dont je suis fier.",
+    "viewAll": "Tous les projets",
+    "servicesTitle": "Ce que je fais",
+    "servicesSubtitle": "Des solutions complètes, du cadrage à la mise en ligne.",
+    "learnMore": "En savoir plus",
+    "stackTitle": "Ma stack",
+    "stackSubtitle": "Les technologies que j'utilise au quotidien.",
+    "ctaTitle": "Un projet en tête ?",
+    "ctaSubtitle": "Parlons-en : réservez un créneau ou écrivez-moi, je reviens vers vous rapidement.",
+    "writeMe": "M'écrire"
+  },
+  "Footer": {
+    "rights": "Tous droits réservés.",
+    "builtWith": "Conçu avec Next.js"
+  }, 
+  "Contact": {
+  "title": "Contact",
+  "subtitle": "Une question, une idée, un projet ? Écrivez-moi, je réponds rapidement.",
+  "name": "Nom",
+  "email": "Email",
+  "subject": "Sujet",
+  "message": "Message",
+  "send": "Envoyer le message",
+  "sending": "Envoi en cours…",
+  "successTitle": "Message envoyé !",
+  "successText": "Merci, je vous réponds dès que possible.",
+  "bookingHint": "Vous préférez en discuter de vive voix ? Réservez directement un créneau.",
+  "bookingLink": "Prendre rendez-vous",
+  "errors": {
+    "tooShort": "Ce champ est trop court.",
+    "tooLong": "Ce champ est trop long.",
+    "invalidEmail": "Adresse email invalide."
+  },
+  "formErrors": {
+    "rateLimit": "Trop de tentatives. Réessayez dans quelques minutes.",
+    "server": "L'envoi a échoué. Réessayez plus tard."
+  }
+},
+  "NotFound": {
+  "title": "Page introuvable",
+  "description": "La page que vous cherchez n'existe pas ou a été déplacée.",
+  "back": "Retour à l'accueil"
+ },
+ "Projects": {
+  "title": "Projets",
+  "subtitle": "Des projets réalisés pour de vrais clients, dans le cadre de mes études et pour m'entraîner.",
+  "filters": {
+    "all": "Tous",
+    "real": "Projets réels",
+    "study": "Projets d'études",
+    "other": "Autres"
+  },
+  "kinds": {
+    "real": "Projet réel",
+    "study": "Projet d'études",
+    "other": "Autre"
+  },
+  "showAll": "Afficher tout ({count})",
+  "showLess": "Réduire",
+  "visitDemo": "Voir la démo",
+  "visitSite": "Visiter le site",
+"private": "Non public",
+"opensInNewTab": "s'ouvre dans un nouvel onglet",
+  "viewCode": "Voir le code"
+},
+"Services": {
+  "title": "Services",
+  "subtitle": "Ce que je peux construire pour vous, de l'idée à la mise en ligne.",
+  "items": [
+    {
+      "title": "Applications web",
+      "description": "Sites et plateformes sur mesure avec Next.js et React : rapides, soignés et pensés d'abord pour le mobile."
+    },
+    {
+      "title": "Applications mobiles",
+      "description": "Applications Flutter pour Android et iOS à partir d'une seule base de code."
+    },
+    {
+      "title": "Systèmes de gestion",
+      "description": "Outils internes sur mesure : suivi, facturation, tableaux de bord et gestion des accès."
+    },
+    {
+      "title": "Conseil et accompagnement",
+      "description": "Cadrage du besoin, choix techniques, revue de code et accompagnement de votre équipe."
+    }
+  ],
+  "cta": "Discutons de votre projet",
+  "ctaButton": "Prendre rendez-vous"
+},
+"Experience": {
+  "title": "Parcours",
+  "subtitle": "Mon expérience et les technologies que j'utilise.",
+  "experienceTitle": "Expérience",
+  "educationTitle": "Formation",
+  "skillsTitle": "Compétences",
+  "skills": {
+    "frontend": "Frontend",
+    "mobile": "Mobile",
+    "backend": "Backend et données",
+    "languages": "Autres langages",
+    "tools": "Outils"
+  }
+},
+"Booking": {
+  "title": "Prendre rendez-vous",
+  "subtitle": "Choisissez un créneau de 30 minutes pour échanger sur votre projet.",
+  "step1": "1. Choisissez un jour",
+  "step2": "2. Choisissez une heure",
+  "step3": "3. Vos informations",
+  "timezoneNote": "Les horaires sont affichés en {tz}. Les jours avec un point vert sont disponibles.",
+  "noDate": "Sélectionnez un jour pour voir les horaires disponibles.",
+  "prevMonth": "Mois précédent",
+  "nextMonth": "Mois suivant",
+  "selectedSlot": "Créneau choisi",
+  "name": "Nom",
+  "email": "Email",
+  "subject": "Sujet",
+  "message": "Message",
+  "optional": "(facultatif)",
+  "send": "Envoyer la demande",
+  "sending": "Envoi en cours…",
+  "successTitle": "Demande envoyée !",
+  "successText": "Je la confirme par email dès que possible. Pensez à vérifier vos spams.",
+  "noAvailability": "Aucune disponibilité pour le moment. Écrivez-moi via la page contact et nous trouverons un créneau.",
+  "contactLink": "Aller à la page contact",
+  "unavailable": "Le calendrier est momentanément indisponible. Réessayez plus tard ou utilisez la page contact.",
+  "retry": "Réessayer",
+"loading": "Chargement des créneaux…",
+  "errors": {
+    "tooShort": "Ce champ est trop court.",
+    "tooLong": "Ce champ est trop long.",
+    "invalidEmail": "Adresse email invalide."
+  },
+  "formErrors": {
+    "rateLimit": "Trop de tentatives. Réessayez dans un moment.",
+    "slotUnavailable": "Ce créneau vient d'être pris. Choisissez-en un autre.",
+    "tooMany": "Vous avez déjà deux demandes en attente avec cette adresse.",
+    "server": "L'envoi a échoué. Réessayez plus tard."
+  }
+}
+}

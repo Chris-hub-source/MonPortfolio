@@ -1,0 +1,168 @@
+{
+  "Meta": {
+    "siteName": "Rey",
+    "title": "Rey — Full-Stack Developer",
+    "description": "Full-stack developer portfolio: web apps, mobile apps and business management systems."
+  },
+  "Common": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toggleTheme": "Toggle theme",
+    "switchLanguage": "Switch language"
+  },
+  "Nav": {
+    "projects": "Projects",
+    "services": "Services",
+    "experience": "Experience",
+    "contact": "Contact",
+    "booking": "Book a call"
+  },
+  "Home": {
+    "available": "Available for new projects",
+    "title": "I build web and mobile apps that make a difference.",
+    "subtitle": "Full-stack developer: from back end to interface, I turn your ideas into reliable, polished products.",
+    "seeProjects": "See my projects",
+    "bookCall": "Book a call",
+    "projectsTitle": "Recent projects",
+    "projectsSubtitle": "A few things I'm proud of.",
+    "viewAll": "All projects",
+    "servicesTitle": "What I do",
+    "servicesSubtitle": "End-to-end solutions, from scoping to launch.",
+    "learnMore": "Learn more",
+    "stackTitle": "My stack",
+    "stackSubtitle": "The technologies I use every day.",
+    "ctaTitle": "Got a project in mind?",
+    "ctaSubtitle": "Let's talk: book a slot or write to me, I'll get back to you quickly.",
+    "writeMe": "Write to me"
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Built with Next.js"
+  },
+  "Contact": {
+  "title": "Contact",
+  "subtitle": "A question, an idea, a project? Write to me, I reply quickly.",
+  "name": "Name",
+  "email": "Email",
+  "subject": "Subject",
+  "message": "Message",
+  "send": "Send message",
+  "sending": "Sending…",
+  "successTitle": "Message sent!",
+  "successText": "Thanks, I'll get back to you as soon as possible.",
+  "bookingHint": "Prefer to talk live? Book a slot directly.",
+  "bookingLink": "Book a call",
+  "errors": {
+    "tooShort": "This field is too short.",
+    "tooLong": "This field is too long.",
+    "invalidEmail": "Invalid email address."
+  },
+  "formErrors": {
+    "rateLimit": "Too many attempts. Please try again in a few minutes.",
+    "server": "Sending failed. Please try again later."
+  }
+},
+  "NotFound": {
+  "title": "Page not found",
+  "description": "The page you're looking for doesn't exist or has been moved.",
+  "back": "Back to home"
+ },
+"Projects": {
+  "title": "Projects",
+  "subtitle": "Work for real clients, from my studies, and to keep practicing.",
+  "filters": {
+    "all": "All",
+    "real": "Real projects",
+    "study": "Study projects",
+    "other": "Other"
+  },
+  "kinds": {
+    "real": "Real project",
+    "study": "Study project",
+    "other": "Other"
+  },
+  "showAll": "Show all ({count})",
+  "showLess": "Show less",
+  "visitDemo": "View demo",
+  "visitSite": "Visit the site",
+"private": "Not public",
+"opensInNewTab": "opens in a new tab",
+  "viewCode": "View code"
+},
+"Services": {
+  "title": "Services",
+  "subtitle": "What I can build for you, from idea to launch.",
+  "items": [
+    {
+      "title": "Web applications",
+      "description": "Custom sites and platforms with Next.js and React: fast, polished and designed mobile-first."
+    },
+    {
+      "title": "Mobile applications",
+      "description": "Flutter apps for Android and iOS from a single codebase."
+    },
+    {
+      "title": "Management systems",
+      "description": "Custom internal tools: tracking, billing, dashboards and access control."
+    },
+    {
+      "title": "Consulting and support",
+      "description": "Requirements scoping, technical choices, code review and support for your team."
+    }
+  ],
+  "cta": "Let's talk about your project",
+  "ctaButton": "Book a call"
+},
+"Experience": {
+  "title": "Experience",
+  "subtitle": "My background and the technologies I use.",
+  "experienceTitle": "Work experience",
+  "educationTitle": "Education",
+  "skillsTitle": "Skills",
+  "skills": {
+    "frontend": "Frontend",
+    "mobile": "Mobile",
+    "backend": "Backend and data",
+    "languages": "Other Languages",
+    "tools": "Tools"
+  }
+},
+"Booking": {
+  "title": "Book a call",
+  "subtitle": "Pick a 30-minute slot to talk about your project.",
+  "step1": "1. Pick a day",
+  "step2": "2. Pick a time",
+  "step3": "3. Your details",
+  "timezoneNote": "Times are shown in {tz}. Days with a green dot are available.",
+  "noDate": "Select a day to see available times.",
+  "prevMonth": "Previous month",
+  "nextMonth": "Next month",
+  "selectedSlot": "Selected slot",
+  "name": "Name",
+  "email": "Email",
+  "subject": "Subject",
+  "message": "Message",
+  "optional": "(optional)",
+  "send": "Send request",
+  "sending": "Sending…",
+  "successTitle": "Request sent!",
+  "successText": "I'll confirm it by email as soon as possible. Remember to check your spam folder.",
+  "noAvailability": "No availability right now. Write to me via the contact page and we'll find a slot.",
+  "contactLink": "Go to the contact page",
+  "unavailable": "The calendar is temporarily unavailable. Please try again later or use the contact page.",
+  "retry": "Try again",
+"loading": "Loading available slots…",
+  "errors": {
+    "tooShort": "This field is too short.",
+    "tooLong": "This field is too long.",
+    "invalidEmail": "Invalid email address."
+  },
+  "formErrors": {
+    "rateLimit": "Too many attempts. Please try again in a moment.",
+    "slotUnavailable": "That slot was just taken. Please pick another one.",
+    "tooMany": "You already have two pending requests with this address.",
+    "server": "Sending failed. Please try again later."
+  }
+}
+
+}
